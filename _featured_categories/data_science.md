@@ -12,4 +12,4 @@ description: >
 
 ## 카테고리
 
-* [MLDL]{:.heading.flip-title} --- 머신러닝, 딥러닝
+* [ML/DL]{:.heading.flip-title} --- 머신러닝, 딥러닝

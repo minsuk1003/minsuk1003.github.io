@@ -1,7 +1,7 @@
 ---
 layout: list
+type: category
 title: Debugging
-slug: debugging
 menu: true
 order: 3
 description: >
