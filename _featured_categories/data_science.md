@@ -11,5 +11,3 @@ description: >
 # Data Science
 
 ## 카테고리
-
-* [ML/DL]{:.heading.flip-title} --- 머신러닝, 딥러닝
