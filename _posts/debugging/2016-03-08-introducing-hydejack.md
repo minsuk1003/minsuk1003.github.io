@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Introducing Hydejack (v3)
+title: What's Jekyll?
+date: 2024-05-12
 description: >
-  Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com) theme,
-  stolen by [@qwtel](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
-tags: [hydejack]
-excerpt_separator: <!--more-->
+  Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+category: debugging
 ---
 
 ## Features

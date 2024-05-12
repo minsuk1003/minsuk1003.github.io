@@ -1,9 +1,10 @@
 ---
 layout: post
-title: JavaScripten (v6)
+title: What's Jekyll?
+date: 2024-05-12
 description: >
-  Hydejack v6 adds a layer of JavaScript, effectively turning the whole site into a single page app.
-tags: [hydejack]
+  Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+category: project
 ---
 
 Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly.
