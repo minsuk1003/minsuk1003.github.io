@@ -1,12 +1,9 @@
 ---
-layout: post
+layout: list
 category: data_science
 title: ML/DL
 description: >
   Machine Learning 및 Deep Learning
-addons:
-  - related
-  - comments
-list: true
+menu: true
 order: 1
 ---
