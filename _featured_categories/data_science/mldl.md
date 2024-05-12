@@ -1,6 +1,6 @@
 ---
 layout: post
-category: data science
+category: data_science
 bigtitle: ML/DL
 description: >
   Machine Learning 및 Deep Learning
