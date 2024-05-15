@@ -51,6 +51,7 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
+  height: 150px;
   transition: transform 0.3s, box-shadow 0.3s;
   display: flex;
   flex-direction: column;
