@@ -1,9 +1,9 @@
 ---
 layout: list
 type: tag
-title: ML/DL
+title: Python
 category: study
 sidebar: true
 description: >
-  ML 및 DL에 관한 학습 내용 기록
+  Python Programming에 관한 학습 내용 기록
 ---
