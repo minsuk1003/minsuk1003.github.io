@@ -44,6 +44,7 @@ logo:                  /assets/icons/icon.png
 author:
   name:                minsuk
   email:               kms100376@gmail.com
+  picture:             /assets/img/ID_Photo_square.jpg
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -62,7 +63,7 @@ copyright:             © 2023. All rights reserved.
 permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
+paginate:              10
 paginate_path:         /page-:num/
 
 
@@ -71,7 +72,7 @@ paginate_path:         /page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          '#4fb1ba'
+accent_color:          '#006076'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
@@ -179,7 +180,7 @@ include:
 # ========================================================================================
 
 plugins:
-  # - jekyll-avatar
+  - jekyll-avatar
   # - jekyll-default-layout
   - jekyll-feed
   # - jekyll-gist

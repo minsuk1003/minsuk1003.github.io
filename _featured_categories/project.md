@@ -2,6 +2,7 @@
 layout: list
 type: category
 title: DS Project
+slug: project
 menu: true
 order: 2
 description: >

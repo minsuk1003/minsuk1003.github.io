@@ -2,10 +2,9 @@
 layout: about
 title: About
 description: >
-  항상 성장하고 싶은 데이터 사이언티스트입니다.<br>
   데이터 사이언스와 관련된 내용을 기록합니다.
 menu: true
-order: 4
+order: 5
 ---
 
 ## Portfolio

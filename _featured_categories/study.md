@@ -2,6 +2,7 @@
 layout: list
 type: category
 title: DS Study
+slug: study
 menu: true
 order: 1
 description: >

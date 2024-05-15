@@ -38,11 +38,17 @@
   }
 
   > ul {
+    display: inline-block;
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
     > li {
-      float: left;
+      float: center;
 
       > a {
         display: inline-block;
