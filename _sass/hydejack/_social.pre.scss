@@ -23,11 +23,15 @@
   margin-bottom: .5rem;
 
   &::after {
-    @extend .clearfix
+    content: "";
+    display: table;
+    clear: both;
   }
 
   > ul {
-    display: inline-block;
+    display: flex; /* flexbox 사용 */
+    flex-wrap: wrap; /* 필요시 여러 줄로 나누기 */
+    justify-content: center; /* 가운데 정렬 */
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
@@ -37,7 +41,7 @@
     margin-inline-end: 0px;
     
     > li {
-      float: left;
+      margin: 0 0.5rem; /* 아이콘 간격 조정 */
 
       > a {
         display: inline-block;
@@ -53,13 +57,10 @@
       margin-top: 0;
     }
   }
-}
-// >>>>>
 
-// <<< link
-.sidebar-social {
   @media print {
     display: none;
   }
 }
+
 // >>>
