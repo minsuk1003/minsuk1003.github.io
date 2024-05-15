@@ -130,7 +130,7 @@ hy-drawer {
 /* About section */
 .sidebar-about > h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .sidebar-nav > ul {
@@ -152,7 +152,7 @@ a.sidebar-nav-item {
 a.sidebar-nav-item {
   &::before, &::after {
     position: absolute;
-    right: 0;
+    right: 20%;
     top: .75rem;
   }
 
