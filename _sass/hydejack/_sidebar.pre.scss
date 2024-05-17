@@ -21,6 +21,10 @@
 .sidebar {
   color: rgba(255,255,255,.75); // inline
   text-align: center; // inline
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   a {
     color: #fff; // inline
@@ -32,6 +36,8 @@
 hy-drawer {
   position: relative; // inline
   padding: 1rem 0; // inline
+  width: 100%;
+  z-index: 4;
 
   @media screen {
     padding: 2rem 1rem; // inline
@@ -112,6 +118,7 @@ hy-drawer {
   // <<<<< INLINE
   position: relative;
   z-index: 3;
+  
 
   @media screen {
     position: absolute;
@@ -131,6 +138,7 @@ hy-drawer {
 .sidebar-about > h1 {
   color: #fff;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .sidebar-nav > ul {
@@ -145,6 +153,7 @@ a.sidebar-nav-item {
   line-height: 1.75;
   padding: .25rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-decoration: none;
 }
 
 // >>>>>
