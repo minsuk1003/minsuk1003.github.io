@@ -248,8 +248,10 @@ titles_from_headings:
 
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-  math_engine:         katex
-  math_engine_opts:    {}
+  math_engine:         mathjax # this is not a typo
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
 
 compress_html:
   comments:            ["<!-- ", " -->"]
