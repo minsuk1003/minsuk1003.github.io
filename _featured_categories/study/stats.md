@@ -1,6 +1,5 @@
 ---
 layout: list
-type: tag
 title: Statistics
 category: study
 sidebar: true

@@ -1,6 +1,5 @@
 ---
 layout: list
-type: tag
 title: Python
 category: study
 sidebar: true

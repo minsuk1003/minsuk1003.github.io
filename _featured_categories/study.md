@@ -10,19 +10,19 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
 ---
 
 <div class="subcategory-links">
-  <a class="subcategory-link" href="{{ '/tag/ml-dl/' | relative_url }}">
+  <a class="subcategory-link" href="{{ '/ml-dl/' | relative_url }}">
     <div class="subcategory-card">
       <h3>ML/DL</h3>
       <p>머신러닝 및 딥러닝에 관한 학습 내용</p>
     </div>
   </a>
-  <a class="subcategory-link" href="{{ '/tag/stats/' | relative_url }}">
+  <a class="subcategory-link" href="{{ '/stats/' | relative_url }}">
     <div class="subcategory-card">
       <h3>Statistics</h3>
       <p>통계학에 관한 학습 내용</p>
     </div>
   </a>
-  <a class="subcategory-link" href="{{ '/tag/python/' | relative_url }}">
+  <a class="subcategory-link" href="{{ '/python/' | relative_url }}">
     <div class="subcategory-card">
       <h3>Python</h3>
       <p>파이썬 프로그래밍에 관한 학습 내용</p>

@@ -1,6 +1,5 @@
 ---
 layout: list
-type: tag
 title: ML/DL
 category: study
 sidebar: true

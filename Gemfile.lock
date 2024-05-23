@@ -5,10 +5,12 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
+    duktape (2.7.0.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    execjs (2.9.1)
     ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     google-protobuf (4.26.1-x64-mingw-ucrt)
@@ -47,8 +49,13 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    katex (0.10.0)
+      execjs (~> 2.8)
     kramdown (2.4.0)
       rexml
+    kramdown-math-katex (1.0.1)
+      katex (~> 0.4)
+      kramdown (~> 2.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -82,6 +89,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  duktape
   jekyll
   jekyll-avatar
   jekyll-feed
@@ -89,6 +97,7 @@ DEPENDENCIES
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  kramdown-math-katex
   tzinfo-data
   wdm (>= 0.1.0)
 
