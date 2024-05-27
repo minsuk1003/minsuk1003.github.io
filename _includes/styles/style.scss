@@ -48,7 +48,6 @@ $font-family: {{ font }};
   @import "hydejack/__link/menu";
   @import "hydejack/__link/content";
   @import "hydejack/__link/avatar";
-  @import "hydejack/__link/katex";
   @import "hydejack/__link/footer";
 
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}
@@ -91,7 +90,6 @@ $font-family: {{ font }};
   @import "hydejack/_menu.pre.scss";
   @import "hydejack/_content.pre.scss";
   @import "hydejack/_avatar.pre.scss";
-  @import "hydejack/_katex.pre.scss";
   @import "hydejack/_footer.pre.scss";
 
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}

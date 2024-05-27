@@ -188,7 +188,6 @@ exclude:
 include:
   - LICENSE.md
 
-
 # Plugins and Plugin Configuration
 # ========================================================================================
 
@@ -261,8 +260,8 @@ titles_from_headings:
 
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-  math_engine:         mathjax # this is not a typo
-  math_engine_opts:    {}
+  # math_engine:         mathjax # this is not a typo
+  # math_engine_opts:    {}
 
 compress_html:
   comments:            ["<!-- ", " -->"]
@@ -283,31 +282,12 @@ jekyll-spaceship:
    # default enabled processors
   processors:
     - table-processor
-    - mathjax-processor
     - plantuml-processor
     - mermaid-processor
     - polyfill-processor
     - media-processor
     - emoji-processor
     - element-processor
-  mathjax-processor:
-    src:
-      - https://polyfill.io/v3/polyfill.min.js?features=es6
-      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    config:
-      tex:
-        inlineMath:
-          - ['$','$']
-          - ['\(','\)']
-        displayMath:
-          - ['$$','$$']
-          - ['\[','\]']
-      svg:
-        fontCache: 'global'
-    optimize: # optimization on building stage to check and add mathjax scripts
-      enabled: true # value `false` for adding to all pages
-      include: []   # include patterns for math expressions checking (regexp)
-      exclude: []   # exclude patterns for math expressions checking (regexp)
   plantuml-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:

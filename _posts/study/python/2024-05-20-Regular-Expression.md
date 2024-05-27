@@ -7,3 +7,4 @@ categories:
   - python
 description: >
   Ensemble (앙상블), Voting (투표), Bagging (배깅), Random Forest (랜덤 포레스트)
+---
