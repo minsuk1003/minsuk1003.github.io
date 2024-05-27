@@ -21,6 +21,6 @@ import '../lib/version';
 import '../lib/template-polyfill';
 
 import './cookies-banner';
-import './katex';
+// import './katex';
 import './drawer';
 import './push-state';
