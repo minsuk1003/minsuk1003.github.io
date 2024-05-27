@@ -36,6 +36,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'wdm', '>= 0.1.0'
 
-gem "kramdown-math-katex"
-
 gem "duktape"

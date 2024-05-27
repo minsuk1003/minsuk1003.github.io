@@ -48,7 +48,6 @@ $font-family: {{ font }};
 @import "hydejack/__inline/menu";
 @import "hydejack/__inline/content";
 @import "hydejack/__inline/avatar";
-@import "hydejack/__inline/katex";
 @import "hydejack/__inline/footer";
 
 // {% unless site.hydejack.no_mark_external or site.no_mark_external %}
