@@ -36,20 +36,20 @@ function replaceMathBlock(el, tex) {
   });
 }
 
-function renderKatex(el, tex) {
-  try {
-    const prev = el.previousElementSibling;
-    replaceMathBlock(el, tex);
-    if (prev && prev.classList && prev.classList.contains('MathJax_Preview')) {
-      hide.call(prev);
-    }
-  } catch (e) {
-    // TODO: remove in production builds?
-    console.error(e); // eslint-disable-line no-console
-  } finally {
-    el.style.willChange = '';
-  }
-}
+// function renderKatex(el, tex) {
+//   try {
+//     const prev = el.previousElementSibling;
+//     replaceMathBlock(el, tex);
+//     if (prev && prev.classList && prev.classList.contains('MathJax_Preview')) {
+//       hide.call(prev);
+//     }
+//   } catch (e) {
+//     // TODO: remove in production builds?
+//     console.error(e); // eslint-disable-line no-console
+//   } finally {
+//     el.style.willChange = '';
+//   }
+// }
 
 function readTexSource(el) {
   return el.textContent.replace('% <![CDATA[', '').replace('%]]>', '');
