@@ -36,3 +36,28 @@
     </footer>
   {% endunless %}
 </article>
+
+<!-- MathJax 초기화를 제어하는 스크립트 추가 -->
+<script type="text/javascript">
+  if (typeof MathJax === "undefined") {
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    };
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@2.7.7/MathJax.js?config=TeX-MML-AM_CHTML";
+    script.onload = function() {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    };
+    document.getElementsByTagName("head")[0].appendChild(script);
+  } else {
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  }
+</script>
