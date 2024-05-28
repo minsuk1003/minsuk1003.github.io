@@ -5,7 +5,7 @@ date: 2024-05-28T00:00:00.000Z
 categories: 
   - debugging
 description: >
-  hydejack, 수식 렌더링
+  Hydejack, MathJax, 수식 렌더링
 
 ---
 부푼 기대감을 안고 Github 블로그를 운영하기 시작했으나.. 선택한 Hydejack 테마에서 수식 렌더링 문제가 발생했다 ㅠㅠ
@@ -19,15 +19,14 @@ description: >
 Hydejack에서 수식 렌더링 문제가 발생하고 있는 분들이 이 포스팅으로 문제를 쉽게 해결하셨으면 한다.
 
 ---
-## 목차
-- [목차](#목차)
-  - [Hydejack의 수식 렌더링 방식](#hydejack의-수식-렌더링-방식)
-  - [MathJax](#mathjax)
-  - [마지막 단계](#마지막-단계)
-  - [참조](#참조)
+### 목차
+- [Hydejack의 수식 렌더링 방식](#hydejack의-수식-렌더링-방식)
+- [MathJax](#mathjax)
+- [마지막 단계](#마지막-단계)
+- [참조](#참조)
 
 ---
-### Hydejack의 수식 렌더링 방식
+## Hydejack의 수식 렌더링 방식
 
 먼저, Hydejack에는 2가지의 렌더링 방식이 존재한다.
 
@@ -55,7 +54,7 @@ gem "kramdown-math-katex"
 결국 katex를 포기하고, MathJax를 사용하여 겨우 문제를 해결할 수 있었다.
 
 ---
-### MathJax
+## MathJax
 
 물론, MathJax를 사용해도 문제가 바로 해결되지는 않았다. config 파일 내 math_engine에 MathJax를 넣어도 렌더링이 되지 않았다..
 
@@ -101,7 +100,7 @@ HTML 코드를 살펴본 결과, katex와 MathJax가 모두 적용된 문제로 
 이 작업은 안정적인 블로그 관리를 위해 직접 로컬에서 테스트하면서 실행하길 권한다.
 
 ---
-### 마지막 단계
+## 마지막 단계
 
 이와 같은 수작업 끝에 앞선 중복 문제는 해결되었다..
 
@@ -116,7 +115,7 @@ HTML 코드를 살펴본 결과, katex와 MathJax가 모두 적용된 문제로 
 > 마침내 수식 렌더링 문제를 해결하는 데 성공했다.
 
 ---
-### 참조
+## 참조
 
 [02-Hydejack에서 TeXt로 넘어오기까지](https://junhyoung-chung.github.io/2023/01/27/githubpages-02.html)
 - Hydejack에서 수식 렌더링 문제를 다룬 거의 유일한 블로그이다. 위 블로거는 결국 다른 테마를 선택했지만, 문제를 해결하는 데 큰 도움을 주어 감사함을 표한다.
