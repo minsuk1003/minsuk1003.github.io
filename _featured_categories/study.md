@@ -28,6 +28,19 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
       <p>파이썬 프로그래밍에 관한 학습 내용</p>
     </div>
   </a>
+    <a class="subcategory-link" href="{{ '/algorithm/' | relative_url }}">
+    <div class="subcategory-card">
+      <h3>Algorithm</h3>
+      <p>자료구조 및 알고리즘에 관한 학습 내용</p>
+    </div>
+  </a>
+    </a>
+    <a class="subcategory-link" href="{{ '/sql/' | relative_url }}">
+    <div class="subcategory-card">
+      <h3>SQL</h3>
+      <p>SQL 및 DB에 관한 학습 내용</p>
+    </div>
+  </a>
 </div>
 
 <style>
