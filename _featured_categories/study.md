@@ -24,8 +24,8 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   </a>
   <a class="subcategory-link" href="{{ '/python/' | relative_url }}">
     <div class="subcategory-card">
-      <h3>Python</h3>
-      <p>파이썬 프로그래밍</p>
+      <h3>Advanced Python</h3>
+      <p>고급 파이썬 프로그래밍</p>
     </div>
   </a>
   <a class="subcategory-link" href="{{ '/algorithm/' | relative_url }}">
