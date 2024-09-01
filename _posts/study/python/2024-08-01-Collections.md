@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Python] collections 모듈: 효율적인 데이터 구조'
+title: '[Python] collections 모듈 - 효율적인 데이터 구조'
 date: 2024-08-01T00:00:00.000Z
 categories:
   - study
