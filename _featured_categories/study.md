@@ -42,7 +42,7 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   </a>
   <a class="subcategory-link" href="{{ '/bi-tools/' | relative_url }}">
     <div class="subcategory-card">
-      <h3>BI Tool</h3>
+      <h3>BI Tools</h3>
       <p>비즈니스 인텔리전스 도구</p>
     </div>
   </a>
