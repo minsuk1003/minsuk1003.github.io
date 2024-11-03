@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Review
-slug: review
+title: Book Review
+slug: book_review
 menu: true
-order: 4
+order: 5
 description: >
-  논문 및 책 리뷰
+  책 리뷰
 ---

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: list
 type: category
 title: DS Project
 slug: project
