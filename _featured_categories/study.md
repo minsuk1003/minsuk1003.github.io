@@ -16,10 +16,7 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
       <p>머신러닝</p>
     </div>
     <div class="subcategory">
-      <p>Supervised Learning</p>
-      <p>Unsupervised Learning</p>
-      <p>Reinforcement Learning</p>
-      <p>Feature Engineering</p>
+      <a href="{{ '/ml/supervised-learning/' | relative_url }}"><p>Supervised Learning</p></a>
     </div>
   </a>
   <a class="category-link" href="{{ '/dl/' | relative_url }}">
@@ -56,24 +53,12 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
     <div class="category-card">
       <h3>NLP & LLM</h3>
       <p>자연어 처리 및 거대 언어 모델</p>
-        <div id="nlp" class="subcategory">
-          <p>Tokenization</p>
-          <p>Sentiment Analysis</p>
-          <p>Named Entity Recognition (NER)</p>
-          <p>Language Models</p>
-        </div>
     </div>
   </a>
   <a class="category-link" href="{{ '/bi-tools/' | relative_url }}">
     <div class="category-card">
       <h3>Business Intelligence (BI)</h3>
       <p>비즈니스 인텔리전스 도구</p>
-    <div id="bi" class="subcategory">
-      <p>Power BI</p>
-      <p>Tableau</p>
-      <p>Data Visualization</p>
-      <p>Data Storytelling</p>
-    </div>
     </div>
   </a>
   <a class="category-link" href="{{ '/cloud/' | relative_url }}">
