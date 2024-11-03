@@ -4,7 +4,7 @@ title: About
 description: >
   데이터 사이언스와 관련된 내용을 기록합니다.
 menu: true
-order: 5
+order: 6
 ---
 
 ## Portfolio
