@@ -10,53 +10,53 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
 ---
 
 <div class="category-links">
-  <a class="category-link" onclick="toggleSubcategories('ml')" href="{{ '/ml/' | relative_url }}">
+  <a class="category-link" href="{{ '/ml/' | relative_url }}">
     <div class="category-card">
       <h3>Machine Learning (ML)</h3>
       <p>머신러닝</p>
     </div>
-    <div id="ml" class="subcategory hidden">
+    <div class="subcategory">
       <p>Supervised Learning</p>
       <p>Unsupervised Learning</p>
       <p>Reinforcement Learning</p>
       <p>Feature Engineering</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('dl')" href="{{ '/dl/' | relative_url }}">
+  <a class="category-link" href="{{ '/dl/' | relative_url }}">
     <div class="category-card">
       <h3>Deep Learning (DL)</h3>
       <p>딥러닝</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('statistics')" href="{{ '/stats/' | relative_url }}">
+  <a class="category-link" href="{{ '/stats/' | relative_url }}">
     <div class="category-card">
       <h3>Statistics</h3>
       <p>통계학</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('python')" href="{{ '/python/' | relative_url }}">
+  <a class="category-link" href="{{ '/python/' | relative_url }}">
     <div class="category-card">
       <h3>Advanced Python</h3>
       <p>고급 파이썬 프로그래밍</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('algorithm')" href="{{ '/algorithm/' | relative_url }}">
+  <a class="category-link" href="{{ '/algorithm/' | relative_url }}">
     <div class="category-card">
       <h3>Data Structures & Algorithm</h3>
       <p>자료구조 및 알고리즘</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('sql')" href="{{ '/sql/' | relative_url }}">
+  <a class="category-link" href="{{ '/sql/' | relative_url }}">
     <div class="category-card">
       <h3>SQL & Databases</h3>
       <p>SQL 및 데이터베이스</p>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('nlp')" href="{{ '/nlp/' | relative_url }}">
+  <a class="category-link" href="{{ '/nlp/' | relative_url }}">
     <div class="category-card">
       <h3>NLP & LLM</h3>
       <p>자연어 처리 및 거대 언어 모델</p>
-        <div id="nlp" class="subcategory hidden">
+        <div id="nlp" class="subcategory">
           <p>Tokenization</p>
           <p>Sentiment Analysis</p>
           <p>Named Entity Recognition (NER)</p>
@@ -64,11 +64,11 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
         </div>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('bi')" href="{{ '/bi-tools/' | relative_url }}">
+  <a class="category-link" href="{{ '/bi-tools/' | relative_url }}">
     <div class="category-card">
       <h3>Business Intelligence (BI)</h3>
       <p>비즈니스 인텔리전스 도구</p>
-    <div id="bi" class="subcategory hidden">
+    <div id="bi" class="subcategory">
       <p>Power BI</p>
       <p>Tableau</p>
       <p>Data Visualization</p>
@@ -76,7 +76,7 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
     </div>
     </div>
   </a>
-  <a class="category-link" onclick="toggleSubcategories('cloud')" href="{{ '/cloud/' | relative_url }}">
+  <a class="category-link" href="{{ '/cloud/' | relative_url }}">
     <div class="category-card">
       <h3>Cloud Computing</h3>
       <p>클라우드 컴퓨팅</p>
@@ -94,6 +94,7 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
 }
 
 .category-link {
+  position: relative;
   text-decoration: none; /* 밑줄 제거 */
   color: inherit;
   flex: 1 1 200px;
@@ -126,12 +127,23 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   color: #666;
 }
 
+/* 숨겨진 상태의 서브 카테고리 */
 .subcategory {
-  margin-top: 1rem;
+  display: none;
+  position: absolute;
+  top: 100%; /* 상위 요소 아래에 위치 */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
-.subcategory.hidden {
-  display: none;
+.category-link:hover .subcategory {
+  display: block; /* hover 시 서브카테고리 표시 */
 }
 
 .subcategory p {
@@ -141,10 +153,3 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
 }
 
 </style>
-
-<script>
-function toggleSubcategories(id) {
-  const subcategory = document.getElementById(id);
-  subcategory.classList.toggle("hidden");
-}
-</script>
