@@ -103,6 +103,10 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.category-card:hover + .subcategory {
+  display: block;
+}
+
 .category-card h3 {
   margin: 0 0 0.5rem;
 }
@@ -125,10 +129,6 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
-}
-
-.category-link:hover .subcategory {
-  display: block; /* hover 시 서브카테고리 표시 */
 }
 
 .subcategory a {
