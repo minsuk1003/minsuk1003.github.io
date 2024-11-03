@@ -131,6 +131,11 @@ description: 데이터 사이언스 및 AI에 관한 학습 내용 기록
   display: block; /* hover 시 서브카테고리 표시 */
 }
 
+.subcategory a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .subcategory p {
   margin: 0.5rem 0;
   color: #666;
