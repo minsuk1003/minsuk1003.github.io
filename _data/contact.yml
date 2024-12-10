@@ -12,6 +12,7 @@
 
 - type: instagram
   icon: "fa-brands fa-instagram"
+
   # open link in current tab
 
 #- type: rss
