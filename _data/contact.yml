@@ -12,6 +12,11 @@
 
 - type: instagram
   icon: "fa-brands fa-instagram"
+  url:  'https://www.instagram.com/mskang97/'
+
+- type: notion
+  icon: "fa-solid fa-clipboard"
+  url:  'https://glorious-firewall-b13.notion.site/59e1844c73fe4c20a8aaaf86c23f1a39?pvs=4'
 
   # open link in current tab
 
