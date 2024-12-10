@@ -12,7 +12,7 @@
 
 - type: instagram
   icon: "fa-brands fa-instagram"
-  url: instagram.com/mskang_97/ # open link in current tab
+  url: 'instagram.com/mskang_97/' # open link in current tab
 
 #- type: rss
 #  icon: "fas fa-rss"
