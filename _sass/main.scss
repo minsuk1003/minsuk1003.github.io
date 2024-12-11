@@ -1,4 +1,2 @@
-@forward 'base';
-@forward 'components';
-@forward 'layout';
-@forward 'pages';
+@import 'addon/variables';
+@import 'addon/commons';
