@@ -5,8 +5,8 @@
 
 /* sidebar */
 
-$sidebar-width: 260px !default; /* the basic width */
-$sidebar-width-large: 260px !default; /* screen width: >= 1650px */
+$sidebar-width: 300px !default; /* the basic width */
+$sidebar-width-large: 300px !default; /* screen width: >= 1650px */
 $sb-btn-gap: 0.8rem !default;
 $sb-btn-gap-lg: 1rem !default;
 
@@ -31,6 +31,6 @@ $code-icon-width: 1.75rem !default;
 /* fonts */
 
 // 내용 폰트
-$font-family-base: "Pretendard Variable", 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
+$font-family-base: "Pretendard Variable", 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 // 타이틀 폰트
-$font-family-heading: "Pretendard Variable", 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
+$font-family-heading: "Pretendard Variable", 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
