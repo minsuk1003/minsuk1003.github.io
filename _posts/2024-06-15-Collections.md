@@ -100,7 +100,7 @@ print(counter["a"]) # 4
 ~~~
 
 ---
-## 4. defaultdict
+### 4. defaultdict
 
 > 기본값을 자동으로 생성하는 딕셔너리
 {: .prompt-tip}
@@ -125,7 +125,7 @@ print("성적:", grades)
 위 예시에서의 학생별 성적 관리 딕셔너리에서 키가 존재하지 않을 때 자동으로 리스트가 생성되어 편리하게 성적을 관리할 수 있다.
 
 ---
-## 5. ChainMap
+### 5. ChainMap
 
 > 여러 딕셔너리를 하나의 맵으로 다룰 수 있는 구조
 {: .prompt-tip}
