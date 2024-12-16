@@ -5,6 +5,8 @@ date: 2024-06-15 22:30:00
 categories: [Python]
 tags: [namedtuple, deque, Counter, defaultdict, ChainMap]
 toc: true
+image:
+  path: assets/img/for_post/240615-t.jpg
 img_path: /assets/img/for_post/
 ---
 
