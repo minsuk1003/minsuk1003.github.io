@@ -8,6 +8,7 @@ toc: true
 image:
   path: assets/img/for_post/240615-t.jpg
 img_path: /assets/img/for_post/
+description: 리스트의 스택(Stack) 및 큐(Queue)로의 활용, 딕셔너리의 순서 및 기본값 처리 등을 보완하여 더 강력하고 유연한 데이터 구조를 제공하는 collections 모듈을 알아보자.
 ---
 
 파이썬은 리스트, 튜플, 딕셔너리 등의 기본 자료형을 제공하지만, 특정 상황에서는 비효율적이거나, 원하는 기능을 완벽히 지원하지 못하는 경우가 있다. 
