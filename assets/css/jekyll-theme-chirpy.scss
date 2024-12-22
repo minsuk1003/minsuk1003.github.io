@@ -11,11 +11,5 @@ h1, h2, h3, h4, h5, h6, p, a, div, span {
   font-family: inherit;
 }
 
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
-
 /* append your custom style below */
 
