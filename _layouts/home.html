@@ -5,6 +5,19 @@ refactor: true
 
 {% include lang.html %}
 
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+  /* 모든 텍스트에 Pretendard 적용 */
+  body {
+    font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, a, div, span {
+    font-family: inherit; /* 상속된 폰트 유지 */
+  }
+</style>
+
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
