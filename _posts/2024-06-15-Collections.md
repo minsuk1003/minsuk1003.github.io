@@ -2,7 +2,7 @@
 layout: post
 title: '[Python] collections 모듈 - 효율적인 데이터 구조'
 date: 2024-06-15 22:30:00
-categories: [Python]
+categories: [Advanced Python]
 tags: [namedtuple, deque, Counter, defaultdict, ChainMap]
 toc: true
 image:
