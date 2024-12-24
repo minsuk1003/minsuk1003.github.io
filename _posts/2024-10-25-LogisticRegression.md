@@ -26,7 +26,7 @@ description: Logistic Regression의 수학적 기초를 탐구하며 훈련 및 
 ---
 ## Classification
 
-로지스틱 회귀 <sup>Logistic Regression</sup>와 소프트맥스 회귀 <sup>Softmax Regression</sup>는 분류 문제를 해결하는 기본적인 방법으로, 각각 이진 분류와 다중 클래스 분류에서 활용된다.
+로지스틱 회귀 <sup>Logistic Regression</sup> 와 소프트맥스 회귀 <sup>Softmax Regression</sup> 는 분류 문제를 해결하는 기본적인 방법으로, 각각 이진 분류와 다중 클래스 분류에서 활용된다.
 
 > 본 포스팅은 먼저 Logistic Regression의 수학적 기초를 탐구하며 훈련 및 최적화 과정을 설명한다.
 {: .prompt-info}
@@ -39,7 +39,7 @@ description: Logistic Regression의 수학적 기초를 탐구하며 훈련 및 
 ---
 ### 훈련 함수
 
-> 로지스틱 회귀의 출력은 **시그모이드 함수 <sup>Sigmoid Function</sup>**를 활용하여 정의된다.
+> 로지스틱 회귀의 출력은 **시그모이드 함수 <sup>Sigmoid Function</sup>** 를 활용하여 정의된다.
 {: .prompt-tip}
 
 하나의 데이터 포인트 $x \in \mathbb{R}^{p}$에 대해 예측 확률은 다음과 같다.
@@ -132,9 +132,9 @@ L(y_{\text{true}}, y_{\text{predict}}) =
 \end{cases}
 $$
 
-$n$개의 전체 데이터에 대해 손실을 평균화하면 다음과 같은 **로그 손실 함수 <sup>Log Loss</sup>**가 정의되며,
+$n$개의 전체 데이터에 대해 손실을 평균화하면 다음과 같은 **로그 손실 함수 <sup>Log Loss</sup>** 가 정의되며,
 
-이를 **크로스 엔트로피 손실 함수 <sup>cross-entropy loss function</sup>**라고 한다.
+이를 **크로스 엔트로피 손실 함수 <sup>cross-entropy loss function</sup>** 라고 한다.
 
 $$
 L(\theta) = -\frac{1}{n} \sum_{i=1}^n \left[ y_i \log(h_\theta(x_i)) + (1 - y_i) \log(1 - h_\theta(x_i)) \right]
@@ -157,18 +157,18 @@ $$
 
 최적화 단계에서는 손실 함수 $L(\theta)$를 최소화하기 위해 미분을 사용하여 최적의 $\theta$를 찾는다.
 
-> 그러나, 선형 회귀와 달리, 로지스틱 회귀에서는 손실 함수를 최소화하기 위한 **닫힌 해 <sup>Closed-form Solution</sup>**가 존재하지 않는다.
+> 그러나, 선형 회귀와 달리, 로지스틱 회귀에서는 손실 함수를 최소화하기 위한 **닫힌 해 <sup>Closed-form Solution</sup>** 가 존재하지 않는다.
 > 그 이유는 시그모이드 함수가 비선형적이므로, 손실 함수 $L(\theta)$가 $\theta$에 대해 비선형이다.
 {: .prompt-danger}
 
 즉, 미분값 $\frac{\partial L(\theta)}{\partial \theta} = 0$의 해를 대수적으로 계산할 수 없으므로, **수치적 최적화** 기법을 사용해야 한다.
 
-다행히도 로지스틱 회귀의 손실 함수는 **볼록 함수 <sup>Convex Function</sup>**이다.
+다행히도 로지스틱 회귀의 손실 함수는 **볼록 함수 <sup>Convex Function</sup>** 이다.
 
-> 볼록 함수의 성질: 하나의 전역 최솟값만 존재하며 지역 최솟값 <sup>local minimum</sup>에 빠질 염려가 없다.
+> 볼록 함수의 성질: 하나의 전역 최솟값만 존재하며 지역 최솟값 <sup>local minimum</sup> 에 빠질 염려가 없다.
 {: .prompt-tip}
 
-이 성질을 이용하여 **확률적 경사 하강법 <sup>SGD</sup>** 또는 **미니배치 경사 하강법 <sup>Mini-batch Gradient Descent</sup>**을 통해 최솟값을 찾을 수 있다.
+이 성질을 이용하여 **확률적 경사 하강법 <sup>SGD</sup>** 또는 **미니배치 경사 하강법 <sup>Mini-batch Gradient Descent</sup>** 을 통해 최솟값을 찾을 수 있다.
 
 #### 1. 손실 함수의 도함수
 
