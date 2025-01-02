@@ -19,7 +19,7 @@ title: DS Growth Diary # the main title
 tagline: 데이터 사이언티스트 성장 일지  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Minsuk's Data Scientist Growth Diary
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -224,3 +224,4 @@ jekyll-archives:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
