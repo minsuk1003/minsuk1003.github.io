@@ -9,7 +9,7 @@ toc: true
 render_with_liquid: true
 img_path: /assets/img/for_post/
 image:
-  path: assets/img/for_post/241231-t.jpg
+  path: assets/img/for_post/241231-t.JPG
 description: 2023 빅콘테스트에 참여한 후기를 작성한 글이다.
 ---
 
