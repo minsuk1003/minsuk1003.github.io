@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+img_path: /assets/img/certificate/
 ---
 
 안녕하세요, 강민석입니다.
