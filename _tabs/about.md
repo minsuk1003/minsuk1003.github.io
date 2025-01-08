@@ -30,8 +30,8 @@ img_path: /assets/img/certificate/
 
 - [x] <span style="color: #07a8f7">**경희대학교 웹파이썬 프로그래밍 수강**</span> <sup>school lecture</sup> | 2020.03 ~ 2020.06 | `A-`
 - [x] <span style="color: #07a8f7">**[혼자 공부하는 파이썬](https://product.kyobobook.co.kr/detail/S000061352349)**</span> <sup>book</sup> | 2020
-- [x] <span style="color: #07a8f7">**[프로그래밍 시작하기 in Python](https://www.codeit.kr/topics/getting-started-with-python)**</span> <sup>codeit</sup> | 2021.09 | [Certificate](assets/img/certificate/프로그래밍_시작하기_코드잇.pdf)
-- [x] <span style="color: #07a8f7">**[프로그래밍 핵심 개념 in Python](https://www.codeit.kr/topics/core-concept-of-python-programming)**</span> <sup>codeit</sup> | 2021.09 | [Certificate](assets/img/certificate/프로그래밍_핵심개념_코드잇.pdf)
+- [x] <span style="color: #07a8f7">**[프로그래밍 시작하기 in Python](https://www.codeit.kr/topics/getting-started-with-python)**</span> <sup>codeit</sup> | 2021.09 | [Certificate](https://drive.google.com/file/d/1GoiEj9-BRX4f_aPvxqjS6pqsYS-ghSWa/view?usp=drive_link)
+- [x] <span style="color: #07a8f7">**[프로그래밍 핵심 개념 in Python](https://www.codeit.kr/topics/core-concept-of-python-programming)**</span> <sup>codeit</sup> | 2021.09 | [Certificate](https://drive.google.com/file/d/1GqiPz8_YsHcK1B_mQOwKFsk6ycWZj_Gk/view?usp=drive_link)
 - [x] <span style="color: #07a8f7">**[Python 부트캠프: 100개의 프로젝트로 Python 개발 완전 정복](https://www.udemy.com/course/best-100-days-python/?couponCode=NEWYEARCAREER)**</span> <sup>udemy</sup> | 2021 ~ 2022
 - [ ] <span style="color: #07a8f7">**[Advanced Python - Complete Course](https://youtube.com/playlist?list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2&si=VjseZCTueHEfUtv8)**</span> <sup>youtube</sup> | 2024 ~
 
