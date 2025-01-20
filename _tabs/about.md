@@ -130,3 +130,8 @@ img_path: /assets/img/certificate/
 - [ ] **[MLOps for ALL](https://mlops-for-all.github.io/)** <sup>post</sup> / 2025 ~
 - [ ] **[Full Stack Deep Learning](https://youtube.com/playlist?list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur&si=Uuzft0NaI_3JCcL-)** <sup>youtube</sup> / 2025 ~
 - [ ] **[머신러닝 시스템 설계](https://product.kyobobook.co.kr/detail/S000201212403)** <sup>book</sup> / 2025 ~
+
+### <u>Causal Inference</u>
+
+- [ ] **[실무로 통하는 인과추론 with 파이썬](https://product.kyobobook.co.kr/detail/S000212577153)** <sup>book</sup> / 2025 ~
+- [ ] **[실무로 통하는 인과추론](https://youtube.com/playlist?list=PLKKkeayRo4PWuwIL0_C7n_QQQ_at6CpoE&si=KIgbKyhoB_5mEpWb)** <sup>lecture</sup> / 2025 ~
