@@ -104,7 +104,7 @@ description: 이번 글에서는 인과추론의 개념 및 목적과 실무적 
 
 즉, 다음과 같은 **결측치 문제**가 발생한다.
 
-![image](assets/img/for_post/250119-1.png){: width="500"}
+![image](assets/img/for_post/250119-1.PNG){: width="500"}
 _결측치 문제_
 
 그렇다면, 어떻게 이를 해결할 수 있을까?
