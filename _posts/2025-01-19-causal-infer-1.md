@@ -71,12 +71,12 @@ description: 이번 글에서는 인과추론의 개념 및 목적과 실무적 
 - **결과 <sup>outcome</sup>** $Y$ : 처치가 미치는 결과로, 영향을 주려는 변수
    - ex) 주간 판매량
 
-- **개입 <sup>intervention</sup>** $text{do}(.)$ : 인과모델을 개선하여 인과적 질문의 답을 구하는 과정
-   - $text{do}(T = t_0)$: 처치 $T$에 개입
+- **개입 <sup>intervention</sup>** $\text{do}(.)$ : 인과모델을 개선하여 인과적 질문의 답을 구하는 과정
+   - $\text{do}(T = t_0)$: 처치 $T$에 개입
 
 - **잠재적 결과 <sup>potential outcome</sup>** $Y_i$ : 처치 여부에 따른 두 결과
    - $Y_i$: 처치가 $t$인 상태일 때, 실험 대상 $i$의 결과는 $Y$가 될 것이다.
-   - $$ Y_i = T_iY_{1i} + (1-T_i)Y_{0i} $$
+   $$ Y_i = T_iY_{1i} + (1-T_i)Y_{0i} $$
 
 - **사실적 결과 <sup>factual outcome</sup>** $Y_{1i}$ : 관측할 수 있는 한 가지 결과
    - $Y_{1i}$: 처치받는 실험 대상 $i$의 잠재적 결과 
@@ -84,7 +84,7 @@ description: 이번 글에서는 인과추론의 개념 및 목적과 실무적 
 - **반사실적 결과 <sup>counterfactual outcome</sup>** $Y_{0i}$ : 관측할 수 없는 다른 한 가지 결과
    - $Y_{0i}$: 처치받지 않은 실험 대상 $i$의 잠재적 결과
 
-- **개별 처치효과 <sup>individual treatment effect</sup> (ITE)** $$ : 개별 실험 대상에 처치가 결과에 미치는 영향
+- **개별 처치효과 <sup>individual treatment effect</sup> (ITE)** : 개별 실험 대상에 처치가 결과에 미치는 영향
 
 - **편향 <sup>bias</sup>** : 인과관계와 상관관계를 다르게 만드는 요소
 
