@@ -4,7 +4,7 @@ title: '[Causal Inference] 실무로 통하는 인과추론 - [1] 인과추론 �
 date: 2025-01-19 17:00:00
 categories: [Causal Inference]
 tags: [Causal Inference, Correlation, Treatment, Potential Outcome, Bias]
-math: true
+use_math: true
 toc: true
 render_with_liquid: true
 img_path: /assets/img/for_post/
