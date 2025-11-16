@@ -9,6 +9,8 @@ img_path: /assets/img/certificate/
 
 항상 성장하는 데이터 사이언티스트가 되기 위해 노력합니다.
 
+현재 세일링스톤에서 AI Agent Engineer 1년차로 근무하고 있습니다.
+
 자세한 내용은 [포트폴리오](https://glorious-firewall-b13.notion.site/Minsuk-Kang-59e1844c73fe4c20a8aaaf86c23f1a39?pvs=4)와 [깃허브](https://github.com/minsuk1003)를 확인해주세요.
 
 ---
