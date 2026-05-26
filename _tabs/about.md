@@ -84,7 +84,7 @@ img_path: /assets/img/certificate/
 - [x] **[딥러닝을 이용한 자연어처리 입문](https://wikidocs.net/book/2155)** <sup>wikidocs</sup> / 2023
 - [ ] **[파이토치로 배우는 자연어처리](https://product.kyobobook.co.kr/detail/S000001810395)** <sup>book</sup> / 2024 ~
 - [ ] **[Stanford - CS224N](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1244/)** <sup>lecture</sup> / 2024
-- [x] **[AI 엔지니어링]()** <sup>book</sup> / 2025
+- [x] **[AI 엔지니어링](https://product.kyobobook.co.kr/detail/S000217939673)** <sup>book</sup> / 2025
 - [ ] **[Generative AI with Large Language Models](https://www.coursera.org/learn/generative-ai-with-llms)** <sup>coursera</sup> / 2025 ~ / Certificate
 
 ### <u>Time-Series Analysis</u>
